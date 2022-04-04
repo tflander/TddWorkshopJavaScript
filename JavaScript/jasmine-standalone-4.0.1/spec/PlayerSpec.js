@@ -3,7 +3,7 @@ describe("Player", function() {
   var song;
 
   beforeEach(function() {
-    player = new Player();
+    player = new RockPaperScissors();
     song = new Song();
   });
 
