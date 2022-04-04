@@ -1,12 +1,13 @@
 describe("FizzBuzz Tests", function() {
 
+    var fizzbuzz
+
     beforeEach(function() {
-        // player = new Player();
-        // song = new Song();
+        fizzbuzz = new FizzBuzz()
     });
 
-    it("should be able to play a Song", function() {
-        expect(1).toEqual(2);
+    it("translates 1", function() {
+        expect(fizzbuzz.process(1)).toEqual("1");
     });
 
 });
